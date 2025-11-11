@@ -1,0 +1,493 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f2c1 (92e6e6be66dc) revision 9627366'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 48246 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\softwares\unity\2022.3.62f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/softwares/unity/PROJECT/娴嬭瘯
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62890
+Successfully changed project path to: D:/softwares/unity/PROJECT/娴嬭瘯
+D:/softwares/unity/PROJECT/娴嬭瘯
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10464]  Target information:
+
+Player connection [10464]  * "[IP] 172.30.53.146 [Port] 0 [Flags] 2 [Guid] 2962046865 [EditorId] 2962046865 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VOKVE5U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2c1 (92e6e6be66dc)
+[Subsystems] Discovering subsystems at path D:/softwares/unity/2022.3.62f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/softwares/unity/PROJECT/娴嬭瘯/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     15962 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'D:/softwares/unity/2022.3.62f2c1/Editor/Data/Managed'
+Mono path[1] = 'D:/softwares/unity/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/softwares/unity/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/softwares/unity/2022.3.62f2c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/softwares/unity/2022.3.62f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002094 seconds.
+- Loaded All Assemblies, in  0.175 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.125 seconds
+Domain Reload Profiling: 299ms
+	BeginReloadAssembly (50ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (72ms)
+		LoadAssemblies (49ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (70ms)
+				TypeCache.ScanAssembly (63ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (101ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.295 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 640ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (75ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (345ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (278ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3246 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.9 KB). Loaded Objects now: 3713.
+Memory consumption went from 125.9 MB to 125.9 MB.
+Total: 2.204600 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.034500 ms MarkObjects: 1.887700 ms  DeleteObjects: 0.087500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72804.191653 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/AnimLayer.mask
+  artifactKey: Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animator/AnimLayer.mask using Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df998cda85f4fe640c8bde00ce8a0e27') in 0.007026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.380836 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/SwordAndShieldStance.controller
+  artifactKey: Guid(2be64f57d7d213648aa9b2e5e8e0a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animator/SwordAndShieldStance.controller using Guid(2be64f57d7d213648aa9b2e5e8e0a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b2ff143b1b34460563a26559825280b') in 0.009232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 546.882872 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation
+  artifactKey: Guid(ce9fc0549a119344c9f1e480f227ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation using Guid(ce9fc0549a119344c9f1e480f227ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b85c8c941de643fc121e94ea486713f') in 0.000471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.774411 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield
+  artifactKey: Guid(f0e650f653210564c8b54172a27e8335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield using Guid(f0e650f653210564c8b54172a27e8335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c5940e351dae1efa1655cf285caa86f') in 0.000373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.101140 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack01_SwordAndShiled.fbx
+  artifactKey: Guid(db509ad77f9b4f84a8eb1989f589b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack01_SwordAndShiled.fbx using Guid(db509ad77f9b4f84a8eb1989f589b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8334448bc4ffa0c8452cc6e593841163') in 0.105184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_Stay_SwordAndShield.fbx
+  artifactKey: Guid(0e112f1584fcccd4face09e3b7156832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_Stay_SwordAndShield.fbx using Guid(0e112f1584fcccd4face09e3b7156832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb6251e846c19d14ead2bea6c38b25ef') in 0.036722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx
+  artifactKey: Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx using Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e7a8e8ab7b5a5a4f9e0d71db2ae4e4bf') in 0.037139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx
+  artifactKey: Guid(655c85429305c154b88f3b9157168e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx using Guid(655c85429305c154b88f3b9157168e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c9bddee59d1131b0aa76afb292156f5') in 0.035345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_SwordAndShield.fbx
+  artifactKey: Guid(5940bb0b55717a746bbbe4d3e47e7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Die01_SwordAndShield.fbx using Guid(5940bb0b55717a746bbbe4d3e47e7e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c7b19aa0ddcea07a81f7424e311cb8a') in 0.032923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx
+  artifactKey: Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx using Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a56ab439b6a57293f368aee403be86d') in 0.032726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Victory_Battle_SwordAndShield.fbx
+  artifactKey: Guid(03bef14f938475e429e87b9e986bc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Victory_Battle_SwordAndShield.fbx using Guid(03bef14f938475e429e87b9e986bc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf28f8ef6fde2ee95eb1cc295b35e66f') in 0.030930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx
+  artifactKey: Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx using Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6899444f0daeb0bc75bc8bbf55b39ee') in 0.032928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/AvatarMask.mask
+  artifactKey: Guid(0a2d610c66cc08b4492b8b3de93fdbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/AvatarMask.mask using Guid(0a2d610c66cc08b4492b8b3de93fdbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ad1f379d05d0caccaac2b9ac4f294c6') in 0.000770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/LevelUp_Battle_SwordAndShield.fbx
+  artifactKey: Guid(7125eebf1200f4b4ba2f105c37668d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/LevelUp_Battle_SwordAndShield.fbx using Guid(7125eebf1200f4b4ba2f105c37668d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f11f277f2065072a5c4d24b0bf3b4f8') in 0.033338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 10.727782 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/Polyart_Default.mat
+  artifactKey: Guid(348eeda6cad5d86469a42deac7177e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/Polyart_Default.mat using Guid(348eeda6cad5d86469a42deac7177e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3400fb00e3793963b6abebef875a618f') in 0.021208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/Stage.mat
+  artifactKey: Guid(f2c23294678c47341aa7ffec8a34162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/Stage.mat using Guid(f2c23294678c47341aa7ffec8a34162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5ae701485405b8c8e91c990d1b614f3') in 0.141582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.845522 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPolyart.fbx
+  artifactKey: Guid(14ab85c74a636c74baa3ae08a1b410bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPolyart.fbx using Guid(14ab85c74a636c74baa3ae08a1b410bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f6b69b66a09a76e784408ae522c1517') in 0.056824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Shield08PBR.fbx
+  artifactKey: Guid(4f74d725d371c394ba3753952409c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Shield08PBR.fbx using Guid(4f74d725d371c394ba3753952409c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a2f1d9f60ff33bd99966b4a359aa85e') in 0.015407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Stage.fbx
+  artifactKey: Guid(0f138a164e7f81a4a9e93cf85a9020e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Stage.fbx using Guid(0f138a164e7f81a4a9e93cf85a9020e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9bba7dca426f63af78884c017c90a1aa') in 0.014138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 5.363988 seconds.
+  path: Assets/RPG Tiny Hero Duo/Texture/Emission.png
+  artifactKey: Guid(a0ee9d562ffda6346b2a681ad69d73e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Texture/Emission.png using Guid(a0ee9d562ffda6346b2a681ad69d73e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e71633a1f227b930379f9f08e054e937') in 0.020774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

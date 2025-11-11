@@ -1,0 +1,2563 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f2c1 (92e6e6be66dc) revision 9627366'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 48246 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\softwares\unity\2022.3.62f2c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/softwares/unity/PROJECT/测试
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62890
+Successfully changed project path to: D:/softwares/unity/PROJECT/测试
+D:/softwares/unity/PROJECT/测试
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6168]  Target information:
+
+Player connection [6168]  * "[IP] 172.30.53.146 [Port] 0 [Flags] 2 [Guid] 1545329457 [EditorId] 1545329457 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VOKVE5U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6168] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6168] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f2c1 (92e6e6be66dc)
+[Subsystems] Discovering subsystems at path D:/softwares/unity/2022.3.62f2c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/softwares/unity/PROJECT/测试/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     15962 MB
+    Driver:   32.0.15.8157
+Initialize mono
+Mono path[0] = 'D:/softwares/unity/2022.3.62f2c1/Editor/Data/Managed'
+Mono path[1] = 'D:/softwares/unity/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/softwares/unity/2022.3.62f2c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/softwares/unity/2022.3.62f2c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/softwares/unity/2022.3.62f2c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001924 seconds.
+- Loaded All Assemblies, in  0.158 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.116 seconds
+Domain Reload Profiling: 274ms
+	BeginReloadAssembly (45ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (45ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (65ms)
+				TypeCache.ScanAssembly (59ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (95ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.253 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 572ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (70ms)
+				TypeCache.ScanAssembly (63ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3246 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.0 KB). Loaded Objects now: 3713.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 1.996000 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.735900 ms  DeleteObjects: 0.069100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73360.380606 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator
+  artifactKey: Guid(babbdda514009f84dbf2496ace6a6f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animator using Guid(babbdda514009f84dbf2496ace6a6f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '70d4c046a57aa084a8d994995405f635') in 0.002007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.952619 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material
+  artifactKey: Guid(ae5f1d2c5fae36640a4fb67668052369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material using Guid(ae5f1d2c5fae36640a4fb67668052369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9a086f1055a4cdf9e2924bc332c3a31') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.117887 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/PBR_Default.mat
+  artifactKey: Guid(f323cced30244554986ee5e9f5dd8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Material/PBR_Default.mat using Guid(f323cced30244554986ee5e9f5dd8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e270ec404a275445dfa4b7bad94aaabc') in 0.068656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.857995 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh
+  artifactKey: Guid(a597685b29c02da42af8db48b57f3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh using Guid(a597685b29c02da42af8db48b57f3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcdf725e525b3bf531fa0592b1fdd624') in 0.000450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.086108 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPBR.fbx
+  artifactKey: Guid(34b0895dfc863f742aa5075a4e691859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/ModularCharacterPBR.fbx using Guid(34b0895dfc863f742aa5075a4e691859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee324e42445f4d4e805f1dd0ebab3827') in 0.076330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS06Polyart.fbx
+  artifactKey: Guid(892e5ad366182fd4f823a971e9e16281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS06Polyart.fbx using Guid(892e5ad366182fd4f823a971e9e16281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18c03c9db0852445a263fd9ceb8ada04') in 0.014602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.476189 seconds.
+  path: Assets/RPG Tiny Hero Duo/Scene
+  artifactKey: Guid(66e76cfa9347ea1439c4cce80a7b9096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Scene using Guid(66e76cfa9347ea1439c4cce80a7b9096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d2aa6f9de0da3eef3bd8e33cfd5f8f7') in 0.001578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.816815 seconds.
+  path: Assets/RPG Tiny Hero Duo/Texture
+  artifactKey: Guid(4cade32073d41174c94f7aebbc1f825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Texture using Guid(4cade32073d41174c94f7aebbc1f825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ba06553258f7346521dfc6c25d18134') in 0.001583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066277 seconds.
+  path: Assets/RPG Tiny Hero Duo/Texture/Albedo.png
+  artifactKey: Guid(a63884258dc521b4085d9bc96fe60c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Texture/Albedo.png using Guid(a63884258dc521b4085d9bc96fe60c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76357a0f8be423441db81cada777855e') in 0.021079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.496704 seconds.
+  path: Assets/RPG Tiny Hero Duo/Scene/RootMotion.unity
+  artifactKey: Guid(434dafee2b278604da21509f31e83199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Scene/RootMotion.unity using Guid(434dafee2b278604da21509f31e83199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be0fd813ad3ff06076c09e6f213bb38b') in 0.000494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.242688 seconds.
+  path: Assets/RPG Tiny Hero Duo/Scene/PolyartScene.unity
+  artifactKey: Guid(f08cd05d33382c649a328c6e57dc3ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Scene/PolyartScene.unity using Guid(f08cd05d33382c649a328c6e57dc3ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92cc471738c7666667ccc02d6b2a81f6') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.438953 seconds.
+  path: Assets/RPG Tiny Hero Duo/Scene/PBRScene.unity
+  artifactKey: Guid(732defcb56c220a478eeb579c600da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Scene/PBRScene.unity using Guid(732defcb56c220a478eeb579c600da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0b312345897baf91a4890102a4ac9bc4') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.164427 seconds.
+  path: Assets/RPG Tiny Hero Duo/Scene/AnimationLayer.unity
+  artifactKey: Guid(dd5c2fce3c5586940a67d594979ccdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Scene/AnimationLayer.unity using Guid(dd5c2fce3c5586940a67d594979ccdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4abaf0fae66bdb49636e3a6bf95363e2') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.253754 seconds.
+  path: Assets/move.cs
+  artifactKey: Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/move.cs using Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '05b56a7ed4c36b034970ef6731dda87a') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.219 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 664ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (95ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3766.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 1.923400 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.670100 ms  DeleteObjects: 0.027700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: 7c0f557a2ae3f1ce83d325216f3cc588 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2a9fdf7d5d419da94f306f6a3d48f3d9 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 217.916761 seconds.
+  path: Assets/move.cs
+  artifactKey: Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/move.cs using Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7c3f5ef2eb8f3e6bded15fe0d08366d3') in 0.002125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.237 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.512 seconds
+Domain Reload Profiling: 749ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (133ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3770.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 2.666800 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.410100 ms  DeleteObjects: 0.035700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2.826611 seconds.
+  path: Assets/move.cs
+  artifactKey: Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/move.cs using Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '62d341b02a68e02c0acbbd98d97a4a88') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.193 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 695ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3774.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 2.103500 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.838900 ms  DeleteObjects: 0.036300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.196 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.507 seconds
+Domain Reload Profiling: 703ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3778.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 2.165500 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.890700 ms  DeleteObjects: 0.029400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.192 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 692ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (76ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3782.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 2.574100 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.042500 ms MarkObjects: 2.215600 ms  DeleteObjects: 0.037900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.198 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.487 seconds
+Domain Reload Profiling: 686ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (110ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (311ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3786.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 2.294500 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.037600 ms MarkObjects: 2.021200 ms  DeleteObjects: 0.039100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.188 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.486 seconds
+Domain Reload Profiling: 675ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (75ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3790.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 2.113400 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.853200 ms  DeleteObjects: 0.030500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264.568956 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/RootMotion.controller
+  artifactKey: Guid(230b755b75de01e42872522beacd71ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animator/RootMotion.controller using Guid(230b755b75de01e42872522beacd71ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5032192838ceab5dc0251288715cfe62') in 0.013887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 16.084190 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/AnimationLayer.controller
+  artifactKey: Guid(ad202f9dbc4f60c49a5f7d1d0546d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animator/AnimationLayer.controller using Guid(ad202f9dbc4f60c49a5f7d1d0546d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1caae55fa4e81fe41454a8897fdb9dfb') in 0.001801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1155.214337 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx using Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'acf265c5eeb05a069ac933ae740146b7') in 0.097964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx using Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '254d44996aa6b471bd1947079705913b') in 0.064065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(b5bfe52205c4a874991178073ad7989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx using Guid(b5bfe52205c4a874991178073ad7989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2d9737ddfd5e806caa1a918c0316dcf') in 0.053044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveRGT_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(f531fd2d5a6a8a440b5d450e029c4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveRGT_Battle_InPlace_SwordAndShield.fbx using Guid(f531fd2d5a6a8a440b5d450e029c4041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7fb94705834ffddf8ccae8da472f6ed3') in 0.034137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(7d4f9e9da55a3bd4f958a63308a522a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Battle_InPlace_SwordAndShield.fbx using Guid(7d4f9e9da55a3bd4f958a63308a522a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3eba443188d7750ed771ca47e4c22be6') in 0.032498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpEnd_Normal_InPlace_SwordAndShield.fbx using Guid(8b662f6fbb996ba429182e54857361d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed29cfebf0f29990331630c281c32c0e') in 0.031828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(8be8f9bf3f16f184fb9719bd233874e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Normal_InPlace_SwordAndShield.fbx using Guid(8be8f9bf3f16f184fb9719bd233874e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11182b53ff551ee3fe943bbd1169d35e') in 0.030958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 106.922387 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Normal_RM_SwordAndShield.fbx
+  artifactKey: Guid(dd2792b75214ec24793124d449bacd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Normal_RM_SwordAndShield.fbx using Guid(dd2792b75214ec24793124d449bacd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '56036b36f0235d5c00f189295223b181') in 0.045067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveBWD_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(320724e8ef4b93d458cfaace85217d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveBWD_Battle_RM_SwordAndShield.fbx using Guid(320724e8ef4b93d458cfaace85217d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '31091fb0e7d4a1b4e88c5a2d0237abdc') in 0.044591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/SprintFWD_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(b40499a5812feac4aa7b77f7fbbac11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/SprintFWD_Battle_RM_SwordAndShield.fbx using Guid(b40499a5812feac4aa7b77f7fbbac11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e64cc46a432fb6a2ad1db8db90ecc448') in 0.039657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Normal_RM_SwordAndShield.fbx
+  artifactKey: Guid(784f38d02d7d1cd46bbf6b0c84154880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Normal_RM_SwordAndShield.fbx using Guid(784f38d02d7d1cd46bbf6b0c84154880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8aadf48941db7a406b90b0d0b7597737') in 0.034557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx using Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8dc60cdb44b72e9eaf56b6979e9dac24') in 0.033154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.241 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3794.
+Memory consumption went from 131.6 MB to 131.5 MB.
+Total: 2.136000 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.034700 ms MarkObjects: 1.899000 ms  DeleteObjects: 0.027900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.194 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 673ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (302ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3798.
+Memory consumption went from 131.6 MB to 131.5 MB.
+Total: 2.411500 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.035500 ms MarkObjects: 2.132900 ms  DeleteObjects: 0.030600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.233 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 762ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3802.
+Memory consumption went from 131.6 MB to 131.5 MB.
+Total: 2.183300 ms (FindLiveObjects: 0.194900 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.921700 ms  DeleteObjects: 0.030300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.252 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 779ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (31ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3806.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 2.118700 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.827200 ms  DeleteObjects: 0.030200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.196 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 677ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (306ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3810.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 2.110200 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.856100 ms  DeleteObjects: 0.030300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 675ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (296ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3814.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 2.101600 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.804600 ms  DeleteObjects: 0.030300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.207 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.508 seconds
+Domain Reload Profiling: 715ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (508ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.7 KB). Loaded Objects now: 3818.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 2.253000 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.972700 ms  DeleteObjects: 0.037800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3256.585148 seconds.
+  path: Assets/Mushroom_01.prefab
+  artifactKey: Guid(37fc585b739155f4384b27df0d2df162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mushroom_01.prefab using Guid(37fc585b739155f4384b27df0d2df162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc57d6e65ecf5f179da8e6cb014fa311') in 0.077137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
+  artifactKey: Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Rock_03.prefab using Guid(0fde05fa0f3321942a21896ff4f0856f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c2b0721ecddeb4d465615693e4286c7') in 0.018850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Tree_05.prefab
+  artifactKey: Guid(60f79905accf3b24fa0114b941f1aac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Tree_05.prefab using Guid(60f79905accf3b24fa0114b941f1aac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6afa348d26f62f594b5b778dc83b6fc8') in 0.021204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Tree_02.prefab
+  artifactKey: Guid(e289bf5debb17f6459818c207d781953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Tree_02.prefab using Guid(e289bf5debb17f6459818c207d781953) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '620f0c6f177b04ad361e4cfa98263ef7') in 0.011317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Stage.fbx
+  artifactKey: Guid(0f138a164e7f81a4a9e93cf85a9020e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Stage.fbx using Guid(0f138a164e7f81a4a9e93cf85a9020e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78aabeaaafd4009ca5182fd3a7104d2d') in 0.024058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Shield08PBR.fbx
+  artifactKey: Guid(4f74d725d371c394ba3753952409c5ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Shield08PBR.fbx using Guid(4f74d725d371c394ba3753952409c5ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4a812ab110e220891343f20919a056f') in 0.026382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack02_SwordAndShiled.fbx
+  artifactKey: Guid(8283fadf2c89507469495f30db8680db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack02_SwordAndShiled.fbx using Guid(8283fadf2c89507469495f30db8680db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e00d677253569e99e9875a79fd91db44') in 0.024862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS06PBR.prefab
+  artifactKey: Guid(3617e4093ca8d5145986d37c89cfd692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS06PBR.prefab using Guid(3617e4093ca8d5145986d37c89cfd692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd27ff706bc2a0b47f87a88fe8eec1f3c') in 0.010420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleNaturePack/Models/Ground_02.fbx
+  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '308ceae3ca9e0cb18dd57c6de63996d1') in 0.012645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_03.prefab
+  artifactKey: Guid(34d3f526198dae440bb2ce6005d86055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_03.prefab using Guid(34d3f526198dae440bb2ce6005d86055) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e821988702317575ef1145bf75e759e9') in 0.008229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab
+  artifactKey: Guid(f86f26a978127384b85b71f1235c8ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield08Polyart.prefab using Guid(f86f26a978127384b85b71f1235c8ef2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fee44183475063398f577fb168f8c4c2') in 0.010325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_02.prefab
+  artifactKey: Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_02.prefab using Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ad37875c3afacf00fac821ac48736402') in 0.009034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleNaturePack/Models/Tree_05.fbx
+  artifactKey: Guid(603970f97e50c56488ec3c5a6febd940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Tree_05.fbx using Guid(603970f97e50c56488ec3c5a6febd940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b63d2faa29d031b43626dcb78139d3f') in 0.012588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab
+  artifactKey: Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/MaleCharacterPBR.prefab using Guid(2dfbb63c9cdf7504faf4ff26b0581598) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04571481db7b456dfa92eb5dc9f4bbbe') in 0.021657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5156da2978accbeb4170421f14cfab3') in 0.007139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS06Polyart.fbx
+  artifactKey: Guid(892e5ad366182fd4f823a971e9e16281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS06Polyart.fbx using Guid(892e5ad366182fd4f823a971e9e16281) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ae41a2929b67d8c3049cd90dcec130e') in 0.012454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleNaturePack/Models/Ground_03.fbx
+  artifactKey: Guid(661464e19c087564badb2bf5230c842c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Ground_03.fbx using Guid(661464e19c087564badb2bf5230c842c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ed15bf7e239640ab7dc8eff1c2c0a92b') in 0.011297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity
+  artifactKey: Guid(b818941d93326b949a3840a1d79ea88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Overview.unity using Guid(b818941d93326b949a3840a1d79ea88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01093b46a3a14d92d3fe8fb262b2e5bd') in 0.006263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Stump_01.prefab
+  artifactKey: Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Stump_01.prefab using Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecca84e4da5ebe061ae082d7e396101a') in 0.008693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS03Polyart.prefab
+  artifactKey: Guid(f0aae4c8b38e02e48a4124483b105340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS03Polyart.prefab using Guid(f0aae4c8b38e02e48a4124483b105340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c3acf78743a7ea1cd53ba72f3e17a59') in 0.008644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimpleNaturePack/Models/Rock_04.fbx
+  artifactKey: Guid(33ebf3440b12ec245bd008cd464f8d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Rock_04.fbx using Guid(33ebf3440b12ec245bd008cd464f8d9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0fbe11bf9529b8ec5c4a3e269b8228cc') in 0.014247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleNaturePack/Models/Mushroom_01.fbx
+  artifactKey: Guid(d062f5c56ffb55c4f832432ada269abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Mushroom_01.fbx using Guid(d062f5c56ffb55c4f832432ada269abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4d1c6edb5d43d133299077965307fab') in 0.011905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleNaturePack/Models/Mushroom_02.fbx
+  artifactKey: Guid(6c890c97a154a474082af84a379dffce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Mushroom_02.fbx using Guid(6c890c97a154a474082af84a379dffce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fca7bcb78c75c7574a3e4949f4b9701b') in 0.012935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Material/Skybox_Mat.mat
+  artifactKey: Guid(353466c49cf019540bf2ac95815b7c1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Material/Skybox_Mat.mat using Guid(353466c49cf019540bf2ac95815b7c1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd357c3e8ac7ad258381ae38b0b0756b0') in 0.008319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleNaturePack/Models/Grass_01.fbx
+  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '912240e8ba46d7243ce773800e01ca7a') in 0.013021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleNaturePack/Scenes/SimpleNaturePack_OverviewSettings.lighting
+  artifactKey: Guid(a4b7bfd2efa570d46b66679603ca2b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Scenes/SimpleNaturePack_OverviewSettings.lighting using Guid(a4b7bfd2efa570d46b66679603ca2b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0fcc116e85d4a72f784a8afc7cce12f') in 0.021075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS03Polyart.fbx
+  artifactKey: Guid(3164d361d8955d14c996186ce47ba3bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS03Polyart.fbx using Guid(3164d361d8955d14c996186ce47ba3bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '82caf4800c95d6b63b0692a11583ec74') in 0.013177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_01.prefab
+  artifactKey: Guid(3cdafb3c2f54d434894928d72d282874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_01.prefab using Guid(3cdafb3c2f54d434894928d72d282874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe581974ed98a93fadf11f7c12d6229b') in 0.016210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimpleNaturePack/Models/Grass_02.fbx
+  artifactKey: Guid(638dc165572d2a84081d13ce1afb4d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Grass_02.fbx using Guid(638dc165572d2a84081d13ce1afb4d52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '276db780162f2854448624bb4e863dc4') in 0.011878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SimpleNaturePack/Models/Rock_02.fbx
+  artifactKey: Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Rock_02.fbx using Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94f07dd68fec4ca19dc3cdc26d983f05') in 0.011520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SimpleNaturePack/Models/Stump_01.fbx
+  artifactKey: Guid(768be665aba8b4e4aae7a973ae9616cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Stump_01.fbx using Guid(768be665aba8b4e4aae7a973ae9616cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f2dc3192e56deda88c954ef62e0472a') in 0.011515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab
+  artifactKey: Guid(299e7a1cb6456cf4fa6079cf5978df9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Flowers_02.prefab using Guid(299e7a1cb6456cf4fa6079cf5978df9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af576a46523d2f1cbbd17d6640341ae4') in 0.008088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab
+  artifactKey: Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab using Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '340e012756281c54ed4fef11220282f6') in 0.020714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveLFT_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(048a541568c52514c9996fea7b37d6e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveLFT_Battle_InPlace_SwordAndShield.fbx using Guid(048a541568c52514c9996fea7b37d6e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '39019c03ff5fd4eb8c7b72f6d2f91828') in 0.019544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveBWD_Battle_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(4897d9e1e93439744a78d1cebdef17ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveBWD_Battle_InPlace_SwordAndShield.fbx using Guid(4897d9e1e93439744a78d1cebdef17ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '319e55238b64c55557a0b7da4f8d1bc2') in 0.018880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx using Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab7841c2173f41c9e60df14375194f74') in 0.020038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx
+  artifactKey: Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/GetHit01_SwordAndShield.fbx using Guid(c98546b8d8d3ab046afc8acfe706361f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cdd27bbce16a676d83314d641a6cbcc') in 0.018771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(41974026cbc6b884aa451c380d3c6dcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Normal_InPlace_SwordAndShield.fbx using Guid(41974026cbc6b884aa451c380d3c6dcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ef41e0dcd4973136b912f5034f3ac1b') in 0.018033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx
+  artifactKey: Guid(655c85429305c154b88f3b9157168e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/DefendHit_SwordAndShield.fbx using Guid(655c85429305c154b88f3b9157168e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f5f264390628bcc073e0d2f385f8075') in 0.020748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_Spinning_SwordAndShield.fbx
+  artifactKey: Guid(5729b70d60fdcac45bd03f32c0b8dbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_Spinning_SwordAndShield.fbx using Guid(5729b70d60fdcac45bd03f32c0b8dbea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '41d1c9325d58c11085c134406bae717b') in 0.017681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/AvatarMask.mask
+  artifactKey: Guid(0a2d610c66cc08b4492b8b3de93fdbde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/AvatarMask.mask using Guid(0a2d610c66cc08b4492b8b3de93fdbde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '26980bd10549ca579dbc0cb1044f1744') in 0.008854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Normal_RM_SwordAndShield.fbx
+  artifactKey: Guid(784f38d02d7d1cd46bbf6b0c84154880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveFWD_Normal_RM_SwordAndShield.fbx using Guid(784f38d02d7d1cd46bbf6b0c84154880) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb85508bc8995febd07e3be7106f4961') in 0.020301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Idle_Normal_SwordAndShield.fbx
+  artifactKey: Guid(423aabfede0896f4db862ab8e54dde30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Idle_Normal_SwordAndShield.fbx using Guid(423aabfede0896f4db862ab8e54dde30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86be43c9d02ff2ab7ac3ed02ac936343') in 0.021098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx
+  artifactKey: Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/MoveLFT_Battle_RM_SwordAndShield.fbx using Guid(0451bbf0d5f172a40ac47fdb6d799f2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9de7e5ff761e49d4c14e400d392c821') in 0.020710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx
+  artifactKey: Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Attack04_SwordAndShiled.fbx using Guid(b267a2c210dbd1d4badc3f270df6d12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0a5d6bef254f466e48d86a6eaf2228c') in 0.018146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx
+  artifactKey: Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/Defend_SwordAndShield.fbx using Guid(61f2c64d4f97d9f459a1d367eb16fb13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e1b83b74bc615136635d99443275673') in 0.017774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpStart_Normal_InPlace_SwordAndShield.fbx using Guid(c2b2e4c79d87c3045838cbc5935d8a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b040019c70accf6c2bf74d2288ec4642') in 0.018138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Rock_05.prefab
+  artifactKey: Guid(a778b631c6253a04899cb31bad047c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Rock_05.prefab using Guid(a778b631c6253a04899cb31bad047c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1dfe33a521da6a7617a24642d7cdd13e') in 0.011274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png
+  artifactKey: Guid(28a51d508c86a8948b59df81d5188b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Textures/NaturePackLite_Texture_01.png using Guid(28a51d508c86a8948b59df81d5188b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9dac40536d325ef012f6d186beab48df') in 0.030396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/AnimLayer.mask
+  artifactKey: Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animator/AnimLayer.mask using Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '68f2724ff6534148e7ea307cfa560aee') in 0.006857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimpleNaturePack/Models/Tree_03.fbx
+  artifactKey: Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Tree_03.fbx using Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6cd5f07e05474ca5071e3e49d99e793a') in 0.015409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/OHS03PBR.fbx
+  artifactKey: Guid(de392f919a34e4e4c94a6e77ef08a22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/OHS03PBR.fbx using Guid(de392f919a34e4e4c94a6e77ef08a22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a3fb02d62569f981910ec02d6718e422') in 0.014043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleNaturePack/Scenes/SimpleNaturePack_DemoSettings.lighting
+  artifactKey: Guid(70f1fbbec25a32b468ffc334f5f6dca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Scenes/SimpleNaturePack_DemoSettings.lighting using Guid(70f1fbbec25a32b468ffc334f5f6dca3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5409324fd4172f181b2cd52a9c6f22c1') in 0.018681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Spin_RM_SwordAndShield.fbx
+  artifactKey: Guid(7d1e5bb9bc81eee4095f91385b5effe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Spin_RM_SwordAndShield.fbx using Guid(7d1e5bb9bc81eee4095f91385b5effe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f7b9f844c0747675fb78a287f6601a5') in 0.020596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/SwordAndShieldStance.controller
+  artifactKey: Guid(2be64f57d7d213648aa9b2e5e8e0a39b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animator/SwordAndShieldStance.controller using Guid(2be64f57d7d213648aa9b2e5e8e0a39b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c102d8f7f7e13656eba2382101eea52') in 0.016424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG Tiny Hero Duo/Mesh/Shield05Polyart.fbx
+  artifactKey: Guid(bfe52b9860bf3254b97307683c1f0d88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Mesh/Shield05Polyart.fbx using Guid(bfe52b9860bf3254b97307683c1f0d88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c39f3b6ad7241e72e8f01f5edb4c323f') in 0.012703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Normal_RM_SwordAndShield.fbx
+  artifactKey: Guid(dd2792b75214ec24793124d449bacd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion/JumpFull_Normal_RM_SwordAndShield.fbx using Guid(dd2792b75214ec24793124d449bacd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5336c74de25722feae8968fecb6a25f8') in 0.018534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimpleNaturePack/Models/Flowers_02.fbx
+  artifactKey: Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Flowers_02.fbx using Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '645bcace9e62ea97d08360bb8170732c') in 0.014705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS06Polyart.prefab
+  artifactKey: Guid(a611871aa4f987941bf934736c0ee6d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS06Polyart.prefab using Guid(a611871aa4f987941bf934736c0ee6d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '49079f74e135cf7ced7828bd1d332dba') in 0.008658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPG Tiny Hero Duo/Scene/PBRScene.unity
+  artifactKey: Guid(732defcb56c220a478eeb579c600da34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Scene/PBRScene.unity using Guid(732defcb56c220a478eeb579c600da34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ce25f9f0b59aa17237362dc368b5fae') in 0.006697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab
+  artifactKey: Guid(f06068434cc02c941bd2b282c8d154ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/Shield05Polyart.prefab using Guid(f06068434cc02c941bd2b282c8d154ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc8cbd86b46ffb93aee30e95ed7cf385') in 0.010041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimpleNaturePack/Models/Bush_03.fbx
+  artifactKey: Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Bush_03.fbx using Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04d34e2c743850f77c07b66a778a3962') in 0.013541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SimpleNaturePack/Models/Tree_01.fbx
+  artifactKey: Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Models/Tree_01.fbx using Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1fd6b642e4f66ff17f34f69ecdb17f07') in 0.012750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animator/AnimationLayer.controller
+  artifactKey: Guid(ad202f9dbc4f60c49a5f7d1d0546d1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animator/AnimationLayer.controller using Guid(ad202f9dbc4f60c49a5f7d1d0546d1ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '462dd246ffab5fa8b468f3c8f4e6df4d') in 0.008691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPG Tiny Hero Duo/Scene/RootMotion.unity
+  artifactKey: Guid(434dafee2b278604da21509f31e83199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Scene/RootMotion.unity using Guid(434dafee2b278604da21509f31e83199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4d99aa83a5efbc8f6e3f1d74edf1259') in 0.007850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Normal_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(8be8f9bf3f16f184fb9719bd233874e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Normal_InPlace_SwordAndShield.fbx using Guid(8be8f9bf3f16f184fb9719bd233874e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28a8f9d39b281f7ec0ed52bfaf3a417c') in 0.018371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab
+  artifactKey: Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Flowers_01.prefab using Guid(ac8efb728f1fb9b4092c4df591c827ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '562f24f1ac76650fed9bf6c2db935c20') in 0.010556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx
+  artifactKey: Guid(b5bfe52205c4a874991178073ad7989c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpFull_Spin_InPlace_SwordAndShield.fbx using Guid(b5bfe52205c4a874991178073ad7989c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccc9e99be1be91cadb1fdbeeeaf30b19') in 0.018596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity
+  artifactKey: Guid(5e7af4bd95ac53a4cb784a9eedf8f6f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Scenes/SimpleNaturePack_Demo.unity using Guid(5e7af4bd95ac53a4cb784a9eedf8f6f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd74aa945aafcc4da7986746f8ff06d8') in 0.006889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Bush_02.prefab
+  artifactKey: Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Prefabs/Bush_02.prefab using Guid(b71b0f8d2f881c743a85228f3030d1cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d72e68ea3b3e97e6b30bf0dd1e337eb') in 0.012441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPG Tiny Hero Duo/Prefab/OHS03PBR.prefab
+  artifactKey: Guid(9fbe61d1f4bc091439f25f985dd189a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPG Tiny Hero Duo/Prefab/OHS03PBR.prefab using Guid(9fbe61d1f4bc091439f25f985dd189a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aad2d1ccbb65ca5106fce9549514a441') in 0.010735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2012a9aa02d558a79857c64ddc5e435a') in 0.010659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 68.306507 seconds.
+  path: Assets/move.cs
+  artifactKey: Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/move.cs using Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '848ebd6ddcbc3cb9e1e3de9514f8577c') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.018806 seconds.
+  path: Assets/move.cs
+  artifactKey: Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/move.cs using Guid(aaf13a4046e2d064d9823dda04ebe862) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c4e54ff65674551b62ec962e6730c73') in 0.008945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.212 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 684ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (92ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.7 KB). Loaded Objects now: 3822.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 2.197100 ms (FindLiveObjects: 0.220200 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.904800 ms  DeleteObjects: 0.033600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.189 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 673ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (77ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3826.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 2.140900 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.878100 ms  DeleteObjects: 0.030500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.206 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 739ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.7 KB). Loaded Objects now: 3830.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 2.272700 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.066600 ms MarkObjects: 1.977600 ms  DeleteObjects: 0.029800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.201 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 693ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.7 KB). Loaded Objects now: 3834.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 2.104800 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.823600 ms  DeleteObjects: 0.032100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.195 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 673ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (77ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (27.7 KB). Loaded Objects now: 3838.
+Memory consumption went from 132.2 MB to 132.2 MB.
+Total: 2.245200 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.984500 ms  DeleteObjects: 0.031700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: af126923343c89759e985789bef6d01e -> 5402261d0c7c2fcf47959c5ad48032aa
+  custom:scripting/monoscript/fileName/move.cs: d93a52a180fbbe603a59e9aa6da73c83 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: b4313fba5652ee5a8449f3ec85f31ae4 -> 534d7c71c4dd9147ea00599cede121e1
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: 1ac958119c4ad755d50390246b13522a -> 39597c0f3a76e24d87d64afa59c5f88d
+  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: 7a4d96a0696e29157328c6996c3b82c5 -> f5758234275f5346968d00e3b1a1c0e4
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8672d12af4ad9f8b184771f1a73266cd -> 
